@@ -29,6 +29,6 @@ setup(
     install_requires=[
         'python-restart',
         'wechatpy',
-        'pycrypto>=2.6.1',
+        'cryptography',
     ],
 )
