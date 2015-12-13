@@ -9,9 +9,11 @@ api = RESTArt()
 BAIDU_WEATHER_API = 'http://apistore.baidu.com/microservice/weather'
 
 
-@api.route(uri='/weather')
+@api.route(uri='/YOUR_URL')
 class WeatherRobot(Wechat):
-    token = 'token'
+    token = 'YOUR_TOKEN'
+    encoding_aes_key = 'YOUR_ENCODING_AES_KEY'
+    app_id = 'YOUR_APP_ID'
 
     def on_text(self, message):
         cityname = message.content.encode('utf-8')
