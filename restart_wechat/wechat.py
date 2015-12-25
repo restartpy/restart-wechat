@@ -95,6 +95,7 @@ class Wechat(Interface):
         'shortvideo': 'on_shortvideo',
         'location': 'on_location',
         'link': 'on_link',
+        'event': 'on_event',
     }
 
     #: The parser classes used for parsing request data.
