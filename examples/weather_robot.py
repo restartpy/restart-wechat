@@ -2,7 +2,7 @@
 
 import requests
 from restart.api import RESTArt
-from restart.ext.wechat.wechat import Wechat
+from restart.ext.wechat.wechat import WeChat
 
 api = RESTArt()
 
@@ -10,7 +10,7 @@ BAIDU_WEATHER_API = 'http://apistore.baidu.com/microservice/weather'
 
 
 @api.route(uri='/YOUR_URL')
-class WeatherRobot(Wechat):
+class WeatherRobot(WeChat):
     token = 'YOUR_TOKEN'
     encoding_aes_key = 'YOUR_ENCODING_AES_KEY'
     app_id = 'YOUR_APP_ID'

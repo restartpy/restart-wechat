@@ -1,6 +1,6 @@
-# RESTArt-Wechat
+# RESTArt-WeChat
 
-A RESTArt extension for Wechat Media Platform development.
+A RESTArt extension for WeChat Media Platform development.
 
 用于微信公众平台开发的 [RESTArt][1] 扩展库。
 
@@ -25,12 +25,12 @@ $ pip install -e git+https://github.com/RussellLuo/restart-wechat.git#egg=restar
 # robot.py
 
 from restart.api import RESTArt
-from restart.ext.wechat.wechat import Wechat
+from restart.ext.wechat.wechat import WeChat
 
 api = RESTArt()
 
 @api.route(uri='/YOUR_URL')
-class Robot(Wechat):
+class Robot(WeChat):
     token = 'YOUR_TOKEN'
     encoding_aes_key = 'YOUR_ENCODING_AES_KEY'
     app_id = 'YOUR_APP_ID'

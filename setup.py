@@ -14,7 +14,7 @@ def get_info(name):
 
 
 setup(
-    name='RESTArt-Wechat',
+    name='RESTArt-WeChat',
     version=get_info('__version__'),
     author=get_info('__author__'),
     author_email=get_info('__email__'),

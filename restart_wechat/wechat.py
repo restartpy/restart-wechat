@@ -78,10 +78,10 @@ class XMLRenderer(Renderer):
         return data
 
 
-class Wechat(Interface):
-    """The class that represents a Wechat interface."""
+class WeChat(Interface):
+    """The class that represents a WeChat interface."""
 
-    #: The Wechat configuration
+    #: The WeChat configuration
     token = None
     encoding_aes_key = None
     app_id = None
@@ -110,7 +110,7 @@ class Wechat(Interface):
     def __init__(self, action_map):
         # Assure that the configuration is loaded
         self.load_config()
-        super(Wechat, self).__init__(action_map)
+        super(WeChat, self).__init__(action_map)
 
     @classmethod
     def load_config(cls):

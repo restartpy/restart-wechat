@@ -1,4 +1,4 @@
-"""A RESTArt extension for Wechat Media Platform development."""
+"""A RESTArt extension for WeChat Media Platform development."""
 
 __version__ = '0.0.0'
 __author__ = 'RussellLuo'
