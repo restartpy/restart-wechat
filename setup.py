@@ -20,7 +20,7 @@ setup(
     author_email=get_info('__email__'),
     maintainer=get_info('__author__'),
     maintainer_email=get_info('__email__'),
-    keywords='Wechat, RESTArt, Python',
+    keywords='WeChat, RESTArt, Python',
     description=get_info('__doc__'),
     license=get_info('__license__'),
     long_description=get_info('__doc__'),
