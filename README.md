@@ -7,7 +7,13 @@ A RESTArt extension for WeChat Media Platform development.
 
 ## 安装
 
-目前只有开发版本:
+发布版本：
+
+```
+$ pip install RESTArt-WeChat
+```
+
+开发版本:
 
 ```
 $ pip install -e git+https://github.com/RussellLuo/restart-wechat.git#egg=restart-wechat
