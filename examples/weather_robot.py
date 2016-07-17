@@ -1,5 +1,15 @@
 # -*- coding: utf-8 -*-
 
+"""天气机器人
+
+环境搭建：
+
+    $ virtualenv venv
+    $ source venv/bin/activate
+    $ pip install python-restart
+    $ pip install restart-wechat
+"""
+
 import requests
 from restart.api import RESTArt
 from restart.ext.wechat.wechat import WeChat
