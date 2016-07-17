@@ -6,7 +6,6 @@
 
     $ virtualenv venv
     $ source venv/bin/activate
-    $ pip install python-restart
     $ pip install restart-wechat
 """
 

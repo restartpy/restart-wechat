@@ -8,7 +8,8 @@
     $ virtualenv venv
     $ source venv/bin/activate
     $ pip install pytesseract
-    $ pip install python-restart
+    $ pip install requests
+    $ pip install pillow
     $ pip install restart-wechat
 """
 
